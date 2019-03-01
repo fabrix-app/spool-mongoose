@@ -8,14 +8,7 @@
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Follow @FabrixApp on Twitter][twitter-image]][twitter-url]
 
-[![Gitter][gitter-image]][gitter-url]
-[![NPM version][npm-image]][npm-url]
-[![Build status][ci-image]][ci-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
-[![Code Climate][codeclimate-image]][codeclimate-url]
-
-
-Loads Application Models (in `api/models`) into the Mongoose ORM; Integrates with [spool-router](https://github.com/fabrixjs/spool-router) to
+Loads Application Models (in `api/models`) into the Mongoose ORM; Integrates with [spool-router](https://github.com/fabrix-app/spool-router) to
 generate Footprints for routes.
 
 ## Usage
