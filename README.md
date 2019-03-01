@@ -9,7 +9,7 @@
 [![Follow @FabrixApp on Twitter][twitter-image]][twitter-url]
 
 Loads Application Models (in `api/models`) into the Mongoose ORM; Integrates with [spool-router](https://github.com/fabrix-app/spool-router) to
-generate Footprints for routes.
+generate Tapestriess for routes.
 
 ## Usage
 

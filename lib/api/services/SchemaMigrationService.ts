@@ -1,13 +1,11 @@
-'use strict'
-
-const _ = require('lodash')
-const Service = require('fabrix/service')
+import { FabrixService as Service } from '@fabrix/fabrix/dist/common'
+import * as _ from 'lodash'
 
 /**
  * @module SchemaMigrationService
  * @description Schema Migrations
  */
-module.exports = class SchemaMigrationService extends Service {
+export class SchemaMigrationService extends Service {
 
   /**
    * @param connection connection object

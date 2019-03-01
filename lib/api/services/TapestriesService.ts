@@ -1,14 +1,12 @@
-'use strict'
-
-const _ = require('lodash')
-const Service = require('fabrix/service')
+import { FabrixService as Service } from '@fabrix/fabrix/dist/common'
+import * as _ from 'lodash'
 
 /**
  * Fabrix Service that maps abstract ORM methods to their respective Waterine
  * methods. This service can be thought of as an "adapter" between fabrix and
  * Mongoose. All methods return native ES6 Promises.
  */
-module.exports = class FootprintService extends Service {
+export class TapestriesService extends Service {
 
   /**
    * Internal method to retreive model object
@@ -85,7 +83,7 @@ module.exports = class FootprintService extends Service {
   find (modelName, criteria, options) {
     const Model = this._getModel(modelName)
     const modelOptions = _.defaultsDeep({ }, options,
-      _.get(this.app.config, 'footprints.models.options'))
+      _.get(this.app.config, 'tapestriess.models.options'))
 
     if (!Model)
       return Promise.reject(new Error('No model found'))
@@ -165,7 +163,7 @@ module.exports = class FootprintService extends Service {
   update (modelName, criteria, values, options) {
     const Model = this._getModel(modelName)
     const modelOptions = _.defaultsDeep({ }, options,
-      _.get(this.app.config, 'footprints.models.options'))
+      _.get(this.app.config, 'tapestriess.models.options'))
 
     if (!Model)
       return Promise.reject(new Error('No model found'))
