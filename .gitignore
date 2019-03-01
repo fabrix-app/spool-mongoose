@@ -1,0 +1,7 @@
+.idea/
+*.log
+*.sqlite
+node_modules
+coverage
+*.swp
+*.swo
