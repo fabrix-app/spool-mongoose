@@ -1,16 +1,12 @@
 # spool-mongoose
 :package: Mongoose.js Spool [http://mongoosejs.com](http://mongoosejs.com)
 
-[npm-image]: https://img.shields.io/npm/v/spool-mongoose.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/spool-mongoose
-[ci-image]: https://img.shields.io/travis/fabrixjs/spool-mongoose/master.svg?style=flat-square
-[ci-url]: https://travis-ci.org/fabrixjs/spool-mongoose
-[daviddm-image]: http://img.shields.io/david/fabrixjs/spool-mongoose.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/fabrixjs/spool-mongoose
-[codeclimate-image]: https://img.shields.io/codeclimate/github/fabrixjs/spool-mongoose.svg?style=flat-square
-[codeclimate-url]: https://codeclimate.com/github/fabrixjs/spool-mongoose
-[gitter-image]: http://img.shields.io/badge/+%20GITTER-JOIN%20CHAT%20%E2%86%92-1DCE73.svg?style=flat-square
-[gitter-url]: https://gitter.im/fabrixjs/fabrix
+[![Gitter][gitter-image]][gitter-url]
+[![NPM version][npm-image]][npm-url]
+[![Build Status][ci-image]][ci-url]
+[![Test Coverage][coverage-image]][coverage-url]
+[![Dependency Status][daviddm-image]][daviddm-url]
+[![Follow @FabrixApp on Twitter][twitter-image]][twitter-url]
 
 [![Gitter][gitter-image]][gitter-url]
 [![NPM version][npm-image]][npm-url]
@@ -223,11 +219,27 @@ module.exports = class UserService extends Service {
 }
 ```
 
+
 ## Contributing
-We love contributions! Please check out our [Contributor's Guide](https://github.com/fabrixjs/fabrix/blob/master/CONTRIBUTING.md) for more
+We love contributions! Please check out our [Contributor's Guide](https://github.com/fabrix-app/fabrix/blob/master/CONTRIBUTING.md) for more
 information on how our projects are organized and how to get started.
 
 
 ## License
-[MIT](https://github.com/fabrixjs/spool-mongoose/blob/master/LICENSE)
+[MIT](https://github.com/fabrix-app/spool-mongoose/blob/master/LICENSE)
 
+## Changelog
+[Changelog](https://github.com/fabrix-app/spool-mongoose/blob/master/CHANGELOG.md)
+
+[npm-image]: https://img.shields.io/npm/v/@fabrix/spool-mongoose.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@fabrix/spool-mongoose
+[ci-image]: https://img.shields.io/circleci/project/github/fabrix-app/spool-mongoose/master.svg
+[ci-url]: https://circleci.com/gh/fabrix-app/spool-mongoose/tree/master
+[daviddm-image]: http://img.shields.io/david/fabrix-app/spool-mongoose.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/fabrix-app/spool-mongoose
+[gitter-image]: http://img.shields.io/badge/+%20GITTER-JOIN%20CHAT%20%E2%86%92-1DCE73.svg?style=flat-square
+[gitter-url]: https://gitter.im/fabrix-app/Lobby
+[twitter-image]: https://img.shields.io/twitter/follow/FabrixApp.svg?style=social
+[twitter-url]: https://twitter.com/FabrixApp
+[coverage-image]: https://img.shields.io/codeclimate/coverage/github/fabrix-app/spool-mongoose.svg?style=flat-square
+[coverage-url]: https://codeclimate.com/github/fabrix-app/spool-mongoose/coverage
